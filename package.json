@@ -1,5 +1,5 @@
 {
-  "name": "react-intl",
+  "name": "react-intl-try",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-intl": "^2.1.3"
+  }
 }
