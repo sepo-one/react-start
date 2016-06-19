@@ -3,7 +3,7 @@ var app = express();
 var logger = require('express-logging')(require('logops'));
 
 app.use(logger);
-app.use(express.static('dist'));
+app.use(express.static('public'));
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
