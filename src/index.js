@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 
 class App extends React.Component {
   render () {
-    return <p>Hello from React! Now Reload works</p>;
+    return <p>React start blueprint</p>;
   }
 }
 
