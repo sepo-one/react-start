@@ -1,9 +1,10 @@
 var PATH_APP = __dirname + '/src/';
+var PATH_PUBLIC = __dirname + '/public';
 
 var config = {
     entry: PATH_APP + 'index.js',
     output: {
-        path: './public',
+        path: PATH_PUBLIC,
         filename: 'bundle.js'
     },
     module: {
