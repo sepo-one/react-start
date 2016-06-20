@@ -1,12 +1,12 @@
 {
-  "name": "react-intl-try",
+  "name": "react-start",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Basic React blueprint based on: express, babel, webpack",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sergey Poskachey",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.9.1",
@@ -18,7 +18,6 @@
     "logops": "^1.0.0-beta.2",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-intl": "^2.1.3",
     "webpack": "^1.13.1"
   },
   "devDependencies": {
